@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "langchain-community>=0.3.27",
+    "langchain-google-genai>=2.1.9",
+    "langchain-ollama>=0.3.7",
+    "langgraph>=0.6.6",
+    "langgraph-prebuilt>=0.6.4",
+    "uvicorn>=0.35.0",
+]
